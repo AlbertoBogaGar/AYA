@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: betob
-Build-Jdk: 17.0.8.1
+Built-By: Adrian
+Build-Jdk: 21
 Created-By: Maven Integration for Eclipse
 
