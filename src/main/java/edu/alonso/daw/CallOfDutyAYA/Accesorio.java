@@ -2,35 +2,29 @@ package edu.alonso.daw.CallOfDutyAYA;
 
 import java.util.Objects;
 
-public class Arma extends Equipamiento  {
-	private String nombre;
+public class Accesorio extends Equipamiento {
+	private String tipo; //Aturdidora o granada
 
-
-	
-	public Arma(int id, int espaciosEnMochila,String nombre) {
+	public Accesorio(int id, int espaciosEnMochila) {
 		super(id, espaciosEnMochila);
-		this.nombre = nombre;
+		
 	}
 
-
-	public String getNombre() {
-		return nombre;
+	public String getTipo() {
+		return tipo;
 	}
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
-
-
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = super.hashCode();
-		result = prime * result + Objects.hash(nombre);
+		result = prime * result + Objects.hash(tipo);
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -40,14 +34,15 @@ public class Arma extends Equipamiento  {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Arma other = (Arma) obj;
-		return Objects.equals(nombre, other.nombre);
+		Accesorio other = (Accesorio) obj;
+		return Objects.equals(tipo, other.tipo);
 	}
-
 
 	@Override
 	public String toString() {
-		return "Arma [nombre=" + nombre + ", espacio="+ "]";
+		return "Accesorio [tipo=" + tipo + "]";
 	}
+	
+	
 
 }
