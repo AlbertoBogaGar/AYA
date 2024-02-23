@@ -1,5 +1,7 @@
 package edu.alonso.daw.CallOfDutyAYA;
 
+import java.util.Scanner;
+
 public class Init {
 	public static void main(String[] args) {
 
