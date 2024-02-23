@@ -1,10 +1,5 @@
 Manifest-Version: 1.0
-<<<<<<< HEAD
 Built-By: 6294
 Build-Jdk: 20.0.1
-=======
-Built-By: Adrian
-Build-Jdk: 21
->>>>>>> iss1
 Created-By: Maven Integration for Eclipse
 
